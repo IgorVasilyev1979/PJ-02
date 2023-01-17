@@ -5,14 +5,17 @@
 }
 
 .container {
-    display: flex;
-    max-width: 1440px;
+    max-width: 1256px;
     margin: 0 auto;
-    height: 80px;
 }
 
 .header {
     background-color: #131313;
+}
+
+.header .header-wrapper {
+    display: flex;
+    min-height: 83px;
 }
 
 .header .font {
@@ -24,17 +27,16 @@
     color: #FFFFFF;
 }
 
-.header .db {
+.db {
     display: block;
 }
 
 .header .mt {
-    margin-top: 37px;
+    margin-top: 38px;
 }
 
 .header .logo-text {
     width: 180px;
-    margin-left: 92px;
 }
 
 .header .nav {
@@ -81,5 +83,90 @@
 .header .call-button-text {
     font-style: italic;
     text-align: center;
-    margin-top: 3px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+.main .section1 {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 707px;
+}
+
+ .main .section1::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .7);
+}
+
+.main .section1-content-container {
+    position: relative;
+    width: 514px;
+    top: 192px;
+    left: 42px
+}
+
+.main .section1-header-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main .section1-header-text-span {
+    color: #E3B873;
+}
+
+.main .section1-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+
+.main .section1-button-font {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main .section1-calculate-button {
+    height: 51px;
+    width: 207px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border: 1px solid #E3B873;
+    border-radius: 2px;
+    line-height: 54px;
+}
+
+.main .section1-submit-button {
+    height: 51px;
+    width: 207px;
+    background-color:rgba(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    margin-left: 20px;
+    line-height: 54px;
+}
+
+.main .section1-buttons-wrapper {
+    display: flex;
+    margin-top: 25px;
 }
