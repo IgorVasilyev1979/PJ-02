@@ -170,3 +170,155 @@
     display: flex;
     margin-top: 25px;
 }
+
+.main .section2 {
+    background-color: #131313;
+    min-height: 1074px;
+    padding-top: 107px;
+}
+
+.main .section2-nav1 {
+    margin-left: 535px;
+}
+
+.main .section2-links-list {
+    width: 622px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.main .section2-links-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.main .text-selected {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+
+.main .section2-header-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.main .section2-description-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.main .section2-info-item-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.main .section2-info-item-desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 8px;
+}
+
+.main .section2-info {
+    display: flex;
+    margin-top: 49px;
+    flex-wrap: wrap;
+}
+
+.main .section2-info-item {
+    width: 191px;
+}
+
+.main .section2-info-item-mt {
+    margin-top: 32px;
+}
+
+.main .section2-nav2-left-arrow {
+    background-image: url('../icons/leftarrow.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 14px;
+}
+
+.main .section2-nav2-right-arrow {
+    background-image: url('../icons/rightarrow.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 14px;
+}
+
+.main .section2-nav2-middle-part {
+    display: flex;
+    justify-content: space-between;
+    width: 64px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.main .section2-nav2-circle {
+    background: rgba(255, 255, 255, 0.3);
+    width: 9px;
+    height: 9px;
+    border-radius: 30px;
+}
+
+.main .section2-nav2-circle-selected {
+    background: #FFFFFF;
+}
+
+.main .section2-nav2 {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    margin-top: 83px;
+}
+
+.main .section2-img {
+    background-image: url('../images/section2image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 679px;
+    height: 482px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.main .section2-content-container {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 42px;
+}
+
+.main .section2-text-container {
+    width: 442px;
+}
