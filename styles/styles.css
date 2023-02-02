@@ -89,7 +89,7 @@
 
 .main .section1 {
     background-image: url('../images/bg.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     height: 707px;
@@ -891,4 +891,107 @@
     margin-left: 773px;
     display: flex;
     align-items: center;
+}
+
+.main .section5 {
+    background-image: url('../images/section5bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 864px;
+    margin-top: 242px;
+}
+
+.main .section5::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.main .section5-content-container {
+    display: flex;
+    position: relative;
+}
+
+.main .section5-navigation-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 135px;
+}
+
+.main .section5-navigation {
+    margin-left: 7px;
+}
+
+.main .section5-navigation-link {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-underline-offset: 6px;
+}
+
+.main .section5-navigation-select {
+    color:#E3B873;
+    text-decoration: underline;
+}
+
+.main .section5-navigation-links {
+    margin-top: 32px;
+}
+
+.main .section5-images-column1 {
+    margin-left: 211px;
+    margin-top: -40px;
+}
+
+.main .section5-images-column2 {
+    margin-left: 43px;
+    margin-top: -112px;
+}
+
+.main .section5-images-column1-img1 {
+    background-image: url('../images/section5_col1_img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 354px;
+    height: 557px;
+}
+
+.main .section5-images-column1-img2 {
+    background-image: url('../images/section5_col1_img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 354px;
+    height: 350px;
+    margin-top: 39px;
+}
+
+.main .section5-images-column2-img1 {
+    background-image: url('../images/section5_col2_img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 354px;
+    height: 275px;
+}
+
+.main .section5-images-column2-img2 {
+    background-image: url('../images/section5_col2_img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 354px;
+    height: 625px;
+    margin-top: 37px;
 }
