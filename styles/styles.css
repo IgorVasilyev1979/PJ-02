@@ -1423,3 +1423,77 @@
     background-repeat: no-repeat;
     position: relative;
 }
+
+.footer {
+    background-color: #181818;
+}
+
+.footer .footer-wrapper {
+    display: flex;
+    min-height: 133px;
+}
+
+.footer .font {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer .mt {
+    margin-top: 62px;
+}
+
+.footer .logo-text {
+    width: 180px;
+}
+
+.footer .nav {
+    margin-left: 95px;
+}
+
+.footer .ref-list {
+    width: 572px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.footer .ref-text {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .cl {
+    color: #E3B873;
+}
+
+.footer .uc {
+    text-transform: uppercase;
+}
+
+.footer .phone-number {
+    width: 135px;
+    margin-left: 67px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.footer .call-button {
+    margin: 49px 0 0 45px;
+    height: 37px;
+    width: 161px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 1px solid #E3B873;
+    border-radius: 2px;
+}
+
+.footer .call-button-text {
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 3px;
+}
