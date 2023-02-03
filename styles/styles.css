@@ -1190,3 +1190,236 @@
     height: 54px;
     margin-left: 15px;
 }
+
+.main .section7 {
+    background-image: url('../images/section7bg.jpg');
+    background-size: 100vw 954px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 954px;
+    margin-top: -109px;
+}
+
+ .main .section7::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+
+.main .section7-form {
+    background: #181818;
+    margin: 0 auto;
+    transform: translate(10px, -222px);
+    width: 883px;
+    height: 446px;
+    padding-top: 32px;
+}
+
+.main .section7-form-header{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main .section7-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.main .section7-input-container {
+    display: flex;
+    width: 520px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 46px;
+}
+
+.main .section7-input-question-container {
+    width: 520px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.main .section7-input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #181818;
+    border: none;
+}
+
+.main .section7-input-name-container {
+    width: 231px;
+}
+
+.main .section7-input-phone-container {
+    width: 231px;
+}
+
+.main .section7-input {
+    margin-top: -4px;
+}
+
+.main .section7-input-container-divider1 {
+    width: 231px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 4px;
+}
+
+.main .section7-input-container-divider2 {
+    width: 517px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 4px;
+}
+
+.main .section7-agree-checkbox-container {
+    display: flex;
+    width: 286px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 46px;
+    transform: translateX(5px);
+}
+
+.main .section7-submit-input {
+    display: block;
+    margin: 0 auto;
+}
+
+.main .section7-checkbox-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+
+.main .section7-custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.main .section7-custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.main .section7-custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #E3B873;
+    border-radius: 0;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    margin-left: -5px;
+    margin-top: -4px;
+}
+
+.main .section7-custom-checkbox:checked+label::before {
+    border-color: #E3B873;
+    background-color: #E3B873;
+    background-image: url("../icons/checkbox-checked-icon.svg");
+}
+
+.main .section7-submit-input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    width: 203px;
+    height: 55px;
+}
+
+.main .section7-contacts-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: -172px;
+    margin-left: -2px;
+    position: relative;
+}
+
+.main .section7-contacts-icons-container {
+    display: flex;
+    margin: 0 auto;
+    width: 71px;
+    justify-content:space-between;
+    margin-top: 22px;
+    transform: translateX(-3px);
+}
+
+.main .section7-contacts-icon1 {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #E3B873;
+    position: relative;
+    background-image: url('../icons/section7-email-icon.svg');
+    background-size: 16px 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .section7-contacts-icon2 {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #E3B873;
+    position: relative;
+    background-image: url('../icons/section7-insta-icon.svg');
+    background-size: 16px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .section7-img {
+    margin: 0 auto;
+    margin-top: 43px;
+    transform: translateX(-3px);
+    width: 925px;
+    height: 466px;
+    background-image: url('../images/section7img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
