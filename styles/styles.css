@@ -298,6 +298,7 @@
     width: 9px;
     height: 9px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .main .section2-nav2-circle-selected {
@@ -316,7 +317,7 @@
 }
 
 .main .section2-img {
-    background-image: url('../images/section2image.jpg');
+    background-image: url('../images/section2image1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 679px;
